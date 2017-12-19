@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">map123</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="no_location_detected">No Location Detected</string>
+</resources>
