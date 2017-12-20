@@ -89,7 +89,7 @@ public class addMenu extends AppCompatActivity {
 
 
 
-    final int REQUEST_IMAGE_CAPTURE = 100;
+    final int REQUEST_IMAGE_CAPTURE = 10;
 
     //사진 찍기
     private void dispatchTakePictureIntent() {

@@ -7,9 +7,6 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-/**
- * Created by jhim0 on 2017-11-17.
- */
 
 public class DBHelper extends SQLiteOpenHelper {
 
@@ -48,10 +45,6 @@ public class DBHelper extends SQLiteOpenHelper {
         return getReadableDatabase().rawQuery(sql, null);
     }
 
-    public long deleteUserByMethod() {
-        SQLiteDatabase db = getWritableDatabase();
-        return db.delete(UserContract.Users.TABLE_NAME, null, null);
-    }
 }
 
 

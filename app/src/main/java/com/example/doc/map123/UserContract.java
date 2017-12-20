@@ -2,9 +2,7 @@ package com.example.doc.map123;
 
 import android.provider.BaseColumns;
 
-/**
- * Created by jhim0 on 2017-11-17.
- */
+
 
 public class UserContract {
     public static final String DB_NAME="restaurant.db";

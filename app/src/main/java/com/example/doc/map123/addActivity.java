@@ -91,7 +91,7 @@ public class addActivity extends AppCompatActivity {
 
 
 
-    static final int REQUEST_IMAGE_CAPTURE = 30;
+    static final int REQUEST_IMAGE_CAPTURE = 10;
 
     private void dispatchTakePictureIntent() { //카메라
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
