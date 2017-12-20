@@ -21,7 +21,7 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDsUVIi2wmjXKLbiG_6zZCW9fJMRlj8NPg" />
+            android:value="AIzaSyCZYFcD3VqppFrW6FVN3zgBNL3_nG2N-ts" />
 
         <activity android:name=".anim">
             <intent-filter>
